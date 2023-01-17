@@ -19,15 +19,15 @@ module.exports = {
       backgroundImage: () => ({
         'logo-dark-mode': "url('../img/logo-dark-mode.svg')",
         'logo-light-mode': "url('../img/logo-light-mode.svg')",
-        'curvy-dark-mode': "url('../img/curvy-dark-mode.svg')",
-        'curvy-light-mode': "url('../img/curvy-light-mode.svg')",
+        'curvy-dark-mode': "url('../img/bg-curvy-dark-mode.svg')",
+        'curvy-light-mode': "url('../img/bg-curvy-light-mode.svg')",
       }),
     },
   },
   variants: {
     extend: {
-      backgroundImage: ['dark']
-    }
+      backgroundImage: ['dark'],
+    },
   },
   plugins: [],
 }
